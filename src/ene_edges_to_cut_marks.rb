@@ -23,7 +23,8 @@ module Eneroth
 
     EXTENSION.creator     = "Eneroth"
     EXTENSION.description =
-      "Replace selected edges with short stumps at their ends. Can be used as cut marks after printing."
+      "Replace selected edges with short stumps at their ends. "\
+      "Can be used as cut marks after printing."
     EXTENSION.version     = "1.0.0"
     EXTENSION.copyright   = "2024, #{EXTENSION.creator}"
     Sketchup.register_extension(EXTENSION, true)
